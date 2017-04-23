@@ -1,0 +1,18 @@
+name: ${project.artifactId}
+version: ${project.version}
+author: BukkitFabo
+main: ${project.groupId}.${project.artifactId}.Main
+website: https://www.youtube.com/BukkitFabo
+commands:
+  SurvivalGames:
+    aliases: [sg]
+    description: main command with help page
+  ForceMap:
+    aliases: [fm]
+    description: set a map which is in the database registered
+  ForceStart:
+    aliases: [start, fs]
+    description: starts the game with the current map
+  Edit:
+    aliases: [map]
+    description: use this command to edit or create a map with type LOBBY/ARENA/DEATHMATCH
